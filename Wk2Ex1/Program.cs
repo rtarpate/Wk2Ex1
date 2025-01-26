@@ -3,11 +3,13 @@
 using System.Threading.Tasks.Sources;
 using static System.Formats.Asn1.AsnWriter;
 
+//collects user inputs
 Console.WriteLine("Input score");
 
-
+// converts unput into double
 double score = Convert.ToDouble(Console.ReadLine());
 
+//cauluates and outputs user score using an if else 
 if(score >= 89.5)
 {
     Console.WriteLine("The letter Grade for " + score + " is Grade A.");
